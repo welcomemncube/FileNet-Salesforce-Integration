@@ -15,7 +15,7 @@ NB: make sure CP4BA is the selected project
 `vi configDropins/overrides/cors.xml`
 * Download and copy the cors.xml
 * Add your Salesforce URL in allowedOrigins e.g. allowedOrigins=example.sandbox.lightning.force.com
-* Add your self-signed certificate (IBMFileNetCertificate.crt) downloaded from Salesforce to this path: `configDropins/overrides/`
+* Add your self-signed certificate (IBMFileNetCertificate.crt) downloaded from Salesforce to this path: `cd configDropins/overrides/`
 
 For the rest of the configuration follow the provided documentation.
 
